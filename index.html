@@ -5,11 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coffee House</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="container">
     <header class="header">
-            <a href="">
-                <img src="assets/logo.png">
+            <a class="logo" href="">
+                <img src="assets/logo.png" alt="logo Coffee House">
             </a>
             <nav class="nav">
                 <ul class="nav-list">
@@ -19,24 +23,39 @@
                     <li class="nav-item"><a class="item-link" href="#contact us">Contact us</a></li>
                 </ul>
             </nav>
-            <div>
-                <div>
-                <button>
+            <div class="header-actions">
+                <button class="theme-button">
                     <img src="assets/Theme switch.png">
                 </button>
-            </div>
-            <div>
-                <a>
+
+                <a class="menu-link">
                 <p>Menu</p>
                 <img src="assets/coffee-cup.png">
                 </a>
             </div>
-            </div>
             
     </header>
-    <main><h1>
-                Проверьте, пожалуйста, 24. Я все добавлю. Спасибо
-            </h1></main>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>
+                    <em>Enjoy</em> premium
+                    coffee at our
+                    charming cafe
+                </h1>
+                <p class="hero-text">
+                    With its inviting atmosphere and delicious coffee options, the Coffee House Resource is a popular destination for coffee lovers and those seeking a warm and inviting space to enjoy their favorite beverage.
+                </p>
+                <a class="hero-button">
+                    <span>
+                        Menu
+                    </span>
+                </a>
+
+            </div>
+        </section>
+    </main>
     <footer></footer>
+    </div>
 </body>
 </html>

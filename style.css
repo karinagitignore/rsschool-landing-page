@@ -17,13 +17,130 @@ img {
 button {
     font: inherit; cursor: pointer; border: none; background: none;
 }
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background-color: #E1D4C9;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
 
 .header {
     display: flex;
     justify-content: space-between;
 
+    width: 94%;
+
+    margin: 20px 40px 20px 40px;
+
+    color: #403F3D;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 150%;
+
+}
+
+.logo {
+    width: 100px;
+    height: 60px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
 }
 
 .nav-list {
     display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header-actions {
+    display: flex;
+    gap: 24px;
+
+}
+
+.menu-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.menu-link img {
+    width: 20px;
+    height: 20px;
+}
+
+.hero {
+    background-image: url(assets/hero-banner.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    border-radius: 40px;
+
+    padding: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    width: 530px;
+    gap: 40px;
+
+    font-family: "Inter", sans-serif;
+
+}
+
+h1 {
+    font-size: 72px;
+    font-weight: 600;
+    line-height:  105%;
+    color: #E1D4C9;
+
+}
+
+em {
+    color: #B0907A;
+    font-style: italic;
+}
+
+.hero-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height:  150%;
+    color: #E1D4C9;
+
+}
+
+.hero-button {
+    width: 200px;
+    height: 64px;
+
+    border-radius: 100px;
+
+    background-color: #E1D4C9;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height:  150%;
+    
+    counter-reset: #403F3D ;
 }
