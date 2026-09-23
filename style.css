@@ -122,6 +122,7 @@ em {
     font-weight: 400;
     line-height:  150%;
     color: #E1D4C9;
+    font-family: "Inter", sans-serif;
 
 }
 
@@ -157,6 +158,8 @@ em {
     line-height: 125%;
     
     text-align: center;
+
+    color: #403F3D;;
 }
 
 .favorite-slider {
@@ -208,7 +211,7 @@ em {
 
 .coffee-card img {
     width: 480px;
-    height: 480px;
+    height: auto;
 }
 
 .coffee-text {
@@ -253,4 +256,42 @@ em {
 
 .pagination-item.active {
     background-color: #665F55;
+}
+
+.about {
+    margin: 100px 40px 100px 40px;
+
+}
+
+.about h2 {
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 125%;
+    font-family: "Inter", sans-serif;
+    color: #403F3D;
+    letter-spacing: 1.5px;
+
+    text-align: center;
+}
+
+.about-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.about-column {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.about-column img {
+    display: block;
+
+    width: 100%;
+
+    border-radius: 20px;
+
+    object-fit: cover;
 }
