@@ -12,7 +12,7 @@ ul {
     list-style: none;
 }
 img {
-    max-width: 100%; display: block;
+    max-width: 100%;  display: block;
 }
 button {
     font: inherit; cursor: pointer; border: none; background: none;
@@ -295,3 +295,61 @@ em {
 
     object-fit: cover;
 }
+
+.mobile-app {
+
+    margin: 0 40px;
+    
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+ 
+    
+    gap: 100px;
+}
+
+.mobile-app-content {
+    max-width: 630px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.mobile-app h2 {
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 125%;
+    font-family: "Inter", sans-serif;
+    color: #403F3D;
+}
+
+.mobile-app p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height:  150%;
+    color: #403F3D;
+    font-family: "Inter", sans-serif;
+}
+
+.app-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.app-buttons img {
+    width: 200px;
+}
+
+.mobile-app-image {
+    width: 630px;
+    height: auto;
+
+
+}
+.mobile-app-image img {
+    width: 630px;
+    height: auto;
+}
+
