@@ -1,3 +1,25 @@
+:root {
+    --bg: #E1D4C9;
+    --text: #403F3D;
+    --dark: #665F55;
+    --light: #E1D4C9;
+    --border: #C1B6AD;
+    --accent: #B0907A;
+}
+
+[data-theme="dark"] {
+    --bg: #292826;
+    --text: #E1D4C9;
+    --dark: #665F55;
+    --light: #E1D4C9;
+    --border: #665F55;
+    --accent: #B0907A;
+}
+body {
+    margin: 0;
+    background-color: var(--bg);
+    color: var(--text);
+}
 *,
 *::before,
 *::after {
@@ -21,10 +43,6 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
-    margin: 0;
-    background-color: #E1D4C9;
-}
 
 .container {
     max-width: 1440px;
